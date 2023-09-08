@@ -51,7 +51,7 @@ def lemmatizer(text):
     sent = [token.lemma_ for token in doc if not token.text in set(stopwords)]
     return ' '.join(sent)
 
-st.title("Sentiment Analysis App")
+st.title("Instagram Threads Sentiment Analysis App")
 st.markdown("By Roshni Nekkanti")
 image = Image.open("sentiment.jpg")
 st.image(image, use_column_width=True)
