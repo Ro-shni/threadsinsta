@@ -52,7 +52,7 @@ def lemmatizer(text):
     return ' '.join(sent)
 
 st.title("Sentiment Analysis App")
-st.markdown("By Nirmal Gaud")
+st.markdown("By Roshni Nekkanti")
 image = Image.open("sentiment.jpg")
 st.image(image, use_column_width=True)
 
